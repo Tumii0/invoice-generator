@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1c1c1c;
+   
+    text-align: center;
+}
+
+#container{
+  width: 280px;
+  min-height: 370px;
+  margin: 50px auto ;
+ background-color: #1F2937;
+
+}
+
+div .title{
+    color: #fff;
+    background-color: #3A69D2;
+    padding: 20px;
+}
+h1{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+div .title p{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+   
+}
+button{
+    color: #4A4E74;
+    background-color: #D1D4F4;
+    border-radius: 5px;
+    border: none;
+   font-size: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   height: 25px;
+   
+}
+.button-container{
+  
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.task, .total, .notes, .total-amount{
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.task{
+    text-align: left;
+    padding-left: 10px;
+    margin-right: 130px;
+   
+}
+.total {
+    text-align: right;
+    padding-right: 10px;
+}
+.notes{
+    text-align: left;
+    padding-left: 10px;
+    margin-right: 100px;
+   
+
+}
+#content {
+    padding-top: 10px;
+    padding-left: 20px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.5;
+    display: inline-block;
+    
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 240px;
+}
+#total-price{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+.prices{
+  text-align: right;
+}
+
+#note-words{
+    color: white;
+    display: inline-block;
+    position: relative;
+    
+    bottom: 7px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#send-invoice{
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    background-color: #3A69D2;
+    cursor: pointer;
+}
+.wash-carjs{
+    position: relative;
+    right: 80px;
+}
+.wash-carprice{
+    position: relative;
+    left: 85px;
+    bottom: 25px;
+}
+
+.mow-lawnjs{
+position: relative;
+    right: 80px;
+    bottom: 20px;
+}
+.mow-lawnprice{
+    position: relative;
+    left: 85px;
+    bottom: 45px;
+}
+
+.pull-weedsjs{
+    position: relative;
+    right: 80px;
+    bottom: 40px;
+}
+.pull-weedsprice{
+    position: relative;
+    left: 85px;
+    bottom: 65px;
+}
